@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Testapk1"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewHolders.Home_page"
+            android:exported="false"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/Theme.Testapk1" />
+        <activity
+            android:name=".LogIn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Dictionary_main">
+        </activity>
+        
+        <activity
+            android:name=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".activity_home_page">
+        </activity>
+
+        <activity
+            android:name=".Signup">
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:foregroundServiceType="microphone" />
+        <service
+            android:name=".MyServiceB"
+            android:foregroundServiceType="microphone" />
+    </application>
+
+</manifest>

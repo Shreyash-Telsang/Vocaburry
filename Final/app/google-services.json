@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523119115403",
+    "project_id": "testapk1-872a4",
+    "storage_bucket": "testapk1-872a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523119115403:android:d79d092d17f5d328f8688e",
+        "android_client_info": {
+          "package_name": "com.example.testapk1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZDh0IH6b3d1nkdJ9JRzt1m-Gzc4st5Pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
