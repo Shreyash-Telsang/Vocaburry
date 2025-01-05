@@ -1,4 +1,3 @@
-Vocaburry
 Vocaburry is a comprehensive vocabulary enhancement app with two major functionalities:
 1.	Dictionary: Provides detailed information about words, including their usage as different parts of speech (noun, pronoun, adjective, etc.), example quotes, phrases, and related contexts.
 2.	Listener: Allows users to enter a word, listens to conversations, identifies where the word is used, and recommends similar words or alternative suggestions based on the input.
@@ -24,8 +23,8 @@ Languages and Frameworks Used
 Architecture
 •	Frontend (Android Studio - Java)
 o	Two main pages:
-	Dictionary Page: User interface for searching and displaying word details.
-	Listener Page: Interface for recording audio and showing word analysis.
+	  Dictionary Page: User interface for searching and displaying word details.
+	  Listener Page: Interface for recording audio and showing word analysis.
 o	Communicates with the backend using REST APIs.
 •	Backend (Python)
 o	Speech Processing:
