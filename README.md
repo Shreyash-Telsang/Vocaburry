@@ -33,7 +33,7 @@ o	Speech Processing:
 o	Word Analysis:
 	Uses spaCy to analyze the text for parts of speech, context, and related phrases.
 o	Recommendations:
-	Leverages a custom algorithm to find and suggest similar words based on usage.
+	Leverages a custom algorithm to find and suggest similar words based on usage. 
 •	Audio Handling:
 o	Pydub's AudioSegment processes user-recorded audio files for compatibility with Whisper.
 •	Data Flow:
